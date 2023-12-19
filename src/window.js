@@ -9,6 +9,7 @@ module.exports.createWindoww = () => {
       })
 
       win.loadFile('src/views/index.html')
+      win.maximize()
     }
 
     app.whenReady().then(() => {
