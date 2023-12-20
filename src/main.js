@@ -1,6 +1,6 @@
 function main() {
-    const {createWindoww} = require('./window')
-    createWindoww()
+    const {createWindow} = require('./window')
+    createWindow()
 }
 
 main()

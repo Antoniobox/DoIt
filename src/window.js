@@ -1,4 +1,4 @@
-module.exports.createWindoww = () => {
+module.exports.createWindow = () => {
     const { app, BrowserWindow } = require('electron/main')
     const path = require('node:path')
 
