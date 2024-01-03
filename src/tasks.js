@@ -7,5 +7,5 @@ module.exports.getAllTasks = async ()=>{
   } catch(e) {
     return e
   }
-  return tasks
+  return tasks.split("\n")
 }
